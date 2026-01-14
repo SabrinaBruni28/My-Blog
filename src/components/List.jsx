@@ -13,7 +13,7 @@ function List(props) {
             className="w-full h-full flex flex-col items-center justify-center text-white p-2"
           >
             <img
-              src={item.img}
+              src={import.meta.env.BASE_URL + item.img}
               alt={item.name}
               className="w-20 h-20 mb-2 object-contain"
               onError={(e) => (e.currentTarget.style.display = "none")}

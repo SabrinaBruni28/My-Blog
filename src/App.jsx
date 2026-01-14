@@ -66,7 +66,7 @@ function App() {
       <div className="space-y-6 p-6 bg-stone-400 rounded-md shadow justify-center">
         <Title>Welcome to My Blog</Title>
         <img
-          src="/sabrina.jpg"
+          src={import.meta.env.BASE_URL + "/sabrina.jpg"}
           alt="Sabrina Bruni"
           className="w-45 h-40 rounded-full mx-auto border-4 border-slate-300"
         />
