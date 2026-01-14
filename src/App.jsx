@@ -1,35 +1,85 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Background from "./components/Background";
+import List from "./components/List";
+import Paragraph from "./components/Paragraph";
+import Title from "./components/Title";
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const sites = [
+    {
+      name: "Perfil do GitHub",
+      url: "https://github.com/SabrinaBruni28",
+      img: "/assets/github.png",
+    },
+    {
+      name: "Catout",
+      url: "https://sabrinabruni28.github.io/Catout/",
+      img: "/assets/catout.png",
+    },
+    {
+      name: "MegaMania",
+      url: "https://sabrinabruni28.github.io/MegaMania/",
+      img: "/assets/megamania.png",
+    },
+    {
+      name: "Jogo da Memória",
+      url: "https://sabrinabruni28.github.io/JogoDaMemoria/",
+      img: "/assets/jogodamemoria.png",
+    },
+    {
+      name: "Snake Game",
+      url: "https://sabrinabruni28.github.io/Snake-Game/",
+      img: "/assets/snakegame.png",
+    },
+    {
+      name: "Gerenciadot de Tarefas",
+      url: "https://sabrinabruni28.github.io/Gerenciador-de-Tarefas/",
+      img: "/assets/gerenciadortarefas.png",
+    },
+    {
+      name: "Caldeirão - Marketplace",
+      url: "https://caldeirao.onrender.com/",
+      img: "/assets/caldeirao.ico",
+    },
+    {
+      name: "Blog Gravity Falls",
+      url: "https://sabrinabruni28.github.io/Pagina-HMTL-GravityFalls/",
+      img: "/assets/gravityfalls.png",
+    },
+    {
+      name: "Jogo da Velha",
+      url: "https://github.com/SabrinaBruni28/JogoDaVelha-2.0/actions",
+      img: "/assets/jogovelha.ico",
+    },
+    {
+      name: "Campo Minado",
+      url: "https://github.com/SabrinaBruni28/JogoCampoMinado-2.0/actions",
+      img: "/assets/campominado.png",
+    },
+    {
+      name: "Dinos Em Extinção - Jogo de Tabuleiro",
+      url: "https://github.com/SabrinaBruni28/Dinos-em-Extincao",
+      img: "/assets/dinos.jpg",
+    },
+  ];
   return (
-    <>
+    <Background>
+      <div className="space-y-6 p-6 bg-stone-400 rounded-md shadow justify-center">
+        <Title>Welcome to My Blog</Title>
+        <img
+          src="/sabrina.jpg"
+          alt="Sabrina Bruni"
+          className="w-45 h-40 rounded-full mx-auto border-4 border-slate-300"
+        />
+        <Paragraph>
+          My name is Sabrina Bruni. I'm graduated in Computer Science. This is a
+          blog where I share all my projects that I publish somewhere.
+        </Paragraph>
+      </div>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <List list={sites} />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </Background>
+  );
 }
 
-export default App
+export default App;
