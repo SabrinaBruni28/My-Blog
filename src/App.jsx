@@ -31,7 +31,7 @@ function App() {
       img: "/assets/snakegame.png",
     },
     {
-      name: "Gerenciadot de Tarefas",
+      name: "Gerenciador de Tarefas",
       url: "https://sabrinabruni28.github.io/Gerenciador-de-Tarefas/",
       img: "/assets/gerenciadortarefas.png",
     },
@@ -41,7 +41,7 @@ function App() {
       img: "/assets/caldeirao.ico",
     },
     {
-      name: "Blog Gravity Falls",
+      name: "Gravity Falls - Blog",
       url: "https://sabrinabruni28.github.io/Pagina-HMTL-GravityFalls/",
       img: "/assets/gravityfalls.png",
     },
