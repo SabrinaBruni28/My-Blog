@@ -89,9 +89,17 @@ const projects = [
         url: "https://github.com/SabrinaBruni28/JogoDaVelha-2.0",
       },
       {
-        name: "Download",
-        url: "https://github.com/SabrinaBruni28/JogoDaVelha-2.0/actions",
+        name: "Download (Linux)",
+        url: "https://github.com/SabrinaBruni28/JogoDaVelha-2.0/releases/download/v17/JogoDaVelha-Linux.tar.gz",
       },
+      {
+        name: "Dowload (Windows)",
+        url: "https://github.com/SabrinaBruni28/JogoDaVelha-2.0/releases/download/v17/JogoDaVelha-Windows.exe",
+      },
+      {
+        name: "Download (MacOS)",
+        url: "https://github.com/SabrinaBruni28/JogoDaVelha-2.0/releases/download/v17/JogoDaVelha-macOS.tar.gz",
+      }
     ],
     img: "/assets/jogovelha.ico",
   },
