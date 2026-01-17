@@ -5,6 +5,14 @@ const projects = [
     urls: [
       { name: "GitHub", url: "https://github.com/SabrinaBruni28/Catout" },
       { name: "Web", url: "https://sabrinabruni28.github.io/Catout/" },
+      {
+        name: "Download (Linux)",
+        url: "https://github.com/SabrinaBruni28/Catout/releases/download/v16/Catout-Linux.tar.gz",
+      },
+      {
+        name: "Download (Windows)",
+        url: "https://github.com/SabrinaBruni28/Catout/releases/download/v16/Catout-Windows.exe",
+      },
     ],
     img: "/assets/catout.png",
   },
@@ -99,7 +107,7 @@ const projects = [
       {
         name: "Download (MacOS)",
         url: "https://github.com/SabrinaBruni28/JogoDaVelha-2.0/releases/download/v17/JogoDaVelha-macOS.tar.gz",
-      }
+      },
     ],
     img: "/assets/jogovelha.ico",
   },
