@@ -155,7 +155,7 @@ const projects = [
   },
   {
     id: 11,
-    name: "Guitarrio 2600 - Jogo de Atari",
+    name: "Guitarriro 2600 - Jogo de Atari",
     urls: [
       {
         name: "GitHub",
