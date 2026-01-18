@@ -22,6 +22,14 @@ const projects = [
     urls: [
       { name: "GitHub", url: "https://github.com/SabrinaBruni28/MegaMania" },
       { name: "Web", url: "https://sabrinabruni28.github.io/MegaMania/" },
+      {
+        name: "Download (Linux)",
+        url: "https://github.com/SabrinaBruni28/MegaMania/releases/download/v15/MegaMania-Linux.tar.gz",
+      },
+      {
+        name: "Download (Windows)",
+        url: "https://github.com/SabrinaBruni28/MegaMania/releases/download/v15/MegaMania-Windows.exe",
+      },
     ],
     img: "/assets/megamania.png",
   },
