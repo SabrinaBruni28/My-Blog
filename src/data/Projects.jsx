@@ -42,6 +42,10 @@ const projects = [
         url: "https://github.com/SabrinaBruni28/JogoDaMemoria",
       },
       { name: "Web", url: "https://sabrinabruni28.github.io/JogoDaMemoria/" },
+      {
+        name: "Download (Jar)",
+        url: "https://github.com/SabrinaBruni28/JogoDaMemoria/releases/download/v10/MemoriaGame-1.0.0.jar",
+      },
     ],
     img: "/assets/jogodamemoria.png",
   },
@@ -51,6 +55,10 @@ const projects = [
     urls: [
       { name: "GitHub", url: "https://github.com/SabrinaBruni28/Snake-Game" },
       { name: "Web", url: "https://sabrinabruni28.github.io/Snake-Game/" },
+      {
+        name: "Download (Jar)",
+        url: "https://github.com/SabrinaBruni28/Snake-Game/releases/download/v23/SnakeGame-1.0.0.jar",
+      },
     ],
     img: "/assets/snakegame.png",
   },
