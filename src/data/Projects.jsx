@@ -95,11 +95,11 @@ const projects = [
     urls: [
       {
         name: "GitHub",
-        url: "https://github.com/SabrinaBruni28/Pagina-HMTL-GravityFalls",
+        url: "https://github.com/SabrinaBruni28/GravityFalls",
       },
       {
         name: "Web",
-        url: "https://sabrinabruni28.github.io/Pagina-HMTL-GravityFalls/",
+        url: "https://sabrinabruni28.github.io/GravityFalls/",
       },
     ],
     img: "/assets/gravityfalls.png",
