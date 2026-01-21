@@ -172,6 +172,25 @@ const projects = [
     ],
     img: "/assets/guitarriro.webp",
   },
+  {
+    id: 12,
+    name: "Desafio Digital",
+    urls: [
+      {
+        name: "Web",
+        url: "http://tomcat.nupessc.caf.ufv.br/desafiodigital/",
+      },
+      {
+        name: "Download (Jar)",
+        url: "https://drive.google.com/uc?export=download&id=117cbm5pGrfY1L1hG3LIUAQxJsVQujqRS",
+      },
+      {
+        name: "Download (Android)",
+        url: "https://drive.google.com/uc?export=download&id=1lmNKNXU8T7_sdVn0EhywOd4F0v2PS8-M",
+      }
+    ],
+    img: "/assets/desafiodigital.png",
+  },
 ];
 
 export default projects;
