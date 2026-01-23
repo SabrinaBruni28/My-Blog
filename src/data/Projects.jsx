@@ -191,6 +191,21 @@ const projects = [
     ],
     img: "/assets/desafiodigital.png",
   },
+  {
+    id: 13,
+    name: "Jogo da Forca",
+    urls: [
+      {
+        name: "GitHub",
+        url: "https://github.com/SabrinaBruni28/JogoDaForca-2.0",
+      },
+      {
+        name: "Web",
+        url: "https://sabrinabruni28.github.io/JogoDaForca-2.0/",
+      }
+    ],
+    img: "/assets/forca.png",
+  },
 ];
 
 export default projects;
