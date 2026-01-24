@@ -187,7 +187,7 @@ const projects = [
       {
         name: "Download (Android)",
         url: "https://drive.google.com/uc?export=download&id=1lmNKNXU8T7_sdVn0EhywOd4F0v2PS8-M",
-      }
+      },
     ],
     img: "/assets/desafiodigital.png",
   },
@@ -202,9 +202,32 @@ const projects = [
       {
         name: "Web",
         url: "https://sabrinabruni28.github.io/JogoDaForca-2.0/",
-      }
+      },
     ],
     img: "/assets/forca.png",
+  },
+  {
+    id: 14,
+    name: "Cavaleiro da Floresta",
+    urls: [
+      {
+        name: "GitHub",
+        url: "https://github.com/SabrinaBruni28/Cavaleiro",
+      },
+      {
+        name: "Web",
+        url: "https://sabrinabruni28.github.io/Cavaleiro/",
+      },
+      {
+        name: "Download (Linux)",
+        url: "https://github.com/SabrinaBruni28/Cavaleiro/releases/download/v3/Cavaleiro-Linux.tar.gz",
+      },
+      {
+        name: "Download (Windows)",
+        url: "https://github.com/SabrinaBruni28/Cavaleiro/releases//download/v3/Cavaleiro-Windows.exe",
+      },
+    ],
+    img: "/assets/cavaleiro.png",
   },
 ];
 
