@@ -106,6 +106,21 @@ const projects = [
   },
   {
     id: 8,
+    name: "Movies Platform",
+    urls: [
+      {
+        name: "GitHub",
+        url: "https://github.com/SabrinaBruni28/Movies-Platform",
+      },
+      {
+        name: "Web",
+        url: "https://sabrinabruni28.github.io/Movies-Platform/",
+      },
+    ],
+    img: "/assets/moviesplatform.png",
+  },
+  {
+    id: 9,
     name: "Jogo da Velha",
     urls: [
       {
@@ -128,7 +143,7 @@ const projects = [
     img: "/assets/jogovelha.ico",
   },
   {
-    id: 9,
+    id: 10,
     name: "Campo Minado",
     urls: [
       {
@@ -151,7 +166,7 @@ const projects = [
     img: "/assets/campominado.png",
   },
   {
-    id: 10,
+    id: 11,
     name: "Dinos Em Extinção - Jogo de Tabuleiro",
     urls: [
       {
@@ -162,7 +177,7 @@ const projects = [
     img: "/assets/dinos.webp",
   },
   {
-    id: 11,
+    id: 12,
     name: "Guitarriro 2600 - Jogo de Atari",
     urls: [
       {
@@ -173,7 +188,7 @@ const projects = [
     img: "/assets/guitarriro.webp",
   },
   {
-    id: 12,
+    id: 13,
     name: "Desafio Digital",
     urls: [
       {
@@ -192,7 +207,7 @@ const projects = [
     img: "/assets/desafiodigital.png",
   },
   {
-    id: 13,
+    id: 14,
     name: "Jogo da Forca",
     urls: [
       {
@@ -207,7 +222,7 @@ const projects = [
     img: "/assets/forca.png",
   },
   {
-    id: 14,
+    id: 15,
     name: "Cavaleiro da Floresta",
     urls: [
       {
