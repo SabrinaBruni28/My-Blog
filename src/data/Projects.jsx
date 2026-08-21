@@ -1,40 +1,37 @@
 const projects = [
   {
-    id: 1,
     name: "Catout",
     urls: [
       { name: "GitHub", url: "https://github.com/SabrinaBruni28/Catout" },
       { name: "Web", url: "https://sabrinabruni28.github.io/Catout/" },
       {
         name: "Download (Linux)",
-        url: "https://github.com/SabrinaBruni28/Catout/releases/download/v16/Catout-Linux.tar.gz",
+        url: "https://github.com/SabrinaBruni28/Catout/releases/latest/download/Catout-Linux.tar.gz",
       },
       {
         name: "Download (Windows)",
-        url: "https://github.com/SabrinaBruni28/Catout/releases/download/v16/Catout-Windows.exe",
+        url: "https://github.com/SabrinaBruni28/Catout/releases/latest/download/Catout-Windows.exe",
       },
     ],
     img: "/assets/catout.png",
   },
   {
-    id: 2,
     name: "MegaMania",
     urls: [
       { name: "GitHub", url: "https://github.com/SabrinaBruni28/MegaMania" },
       { name: "Web", url: "https://sabrinabruni28.github.io/MegaMania/" },
       {
         name: "Download (Linux)",
-        url: "https://github.com/SabrinaBruni28/MegaMania/releases/download/v15/MegaMania-Linux.tar.gz",
+        url: "https://github.com/SabrinaBruni28/MegaMania/releases/latest/download/MegaMania-Linux.tar.gz",
       },
       {
         name: "Download (Windows)",
-        url: "https://github.com/SabrinaBruni28/MegaMania/releases/download/v15/MegaMania-Windows.exe",
+        url: "https://github.com/SabrinaBruni28/MegaMania/releases/latest/download/MegaMania-Windows.exe",
       },
     ],
     img: "/assets/megamania.png",
   },
   {
-    id: 3,
     name: "Jogo da Memória",
     urls: [
       {
@@ -44,26 +41,24 @@ const projects = [
       { name: "Web", url: "https://sabrinabruni28.github.io/JogoDaMemoria/" },
       {
         name: "Download (Jar)",
-        url: "https://github.com/SabrinaBruni28/JogoDaMemoria/releases/download/v10/MemoriaGame-1.0.0.jar",
+        url: "https://github.com/SabrinaBruni28/JogoDaMemoria/releases/latest/download/MemoriaGame-1.0.0.jar",
       },
     ],
     img: "/assets/jogodamemoria.png",
   },
   {
-    id: 4,
     name: "Snake Game",
     urls: [
       { name: "GitHub", url: "https://github.com/SabrinaBruni28/Snake-Game" },
       { name: "Web", url: "https://sabrinabruni28.github.io/Snake-Game/" },
       {
         name: "Download (Jar)",
-        url: "https://github.com/SabrinaBruni28/Snake-Game/releases/download/v23/SnakeGame-1.0.0.jar",
+        url: "https://github.com/SabrinaBruni28/Snake-Game/releases/latest/download/SnakeGame-1.0.0.jar",
       },
     ],
     img: "/assets/snakegame.png",
   },
   {
-    id: 5,
     name: "Gerenciador de Tarefas",
     urls: [
       {
@@ -78,7 +73,6 @@ const projects = [
     img: "/assets/gerenciadortarefas.png",
   },
   {
-    id: 6,
     name: "Caldeirão - Marketplace",
     urls: [
       {
@@ -90,7 +84,6 @@ const projects = [
     img: "/assets/caldeirao.ico",
   },
   {
-    id: 7,
     name: "Gravity Falls - Blog",
     urls: [
       {
@@ -105,7 +98,6 @@ const projects = [
     img: "/assets/gravityfalls.png",
   },
   {
-    id: 8,
     name: "Movies Platform",
     urls: [
       {
@@ -120,7 +112,6 @@ const projects = [
     img: "/assets/moviesplatform.png",
   },
   {
-    id: 9,
     name: "Jogo da Velha",
     urls: [
       {
@@ -129,21 +120,20 @@ const projects = [
       },
       {
         name: "Download (Linux)",
-        url: "https://github.com/SabrinaBruni28/JogoDaVelha-2.0/releases/download/v17/JogoDaVelha-Linux.tar.gz",
+        url: "https://github.com/SabrinaBruni28/JogoDaVelha-2.0/releases/latest/download/JogoDaVelha-Linux.tar.gz",
       },
       {
         name: "Dowload (Windows)",
-        url: "https://github.com/SabrinaBruni28/JogoDaVelha-2.0/releases/download/v17/JogoDaVelha-Windows.exe",
+        url: "https://github.com/SabrinaBruni28/JogoDaVelha-2.0/releases/latest/download/JogoDaVelha-Windows.exe",
       },
       {
         name: "Download (MacOS)",
-        url: "https://github.com/SabrinaBruni28/JogoDaVelha-2.0/releases/download/v17/JogoDaVelha-macOS.tar.gz",
+        url: "https://github.com/SabrinaBruni28/JogoDaVelha-2.0/releases/latest/download/JogoDaVelha-macOS.tar.gz",
       },
     ],
     img: "/assets/jogovelha.ico",
   },
   {
-    id: 10,
     name: "Campo Minado",
     urls: [
       {
@@ -152,21 +142,20 @@ const projects = [
       },
       {
         name: "Download (Linux)",
-        url: "https://github.com/SabrinaBruni28/JogoCampoMinado-2.0/releases/download/v22/CampoMinado-Linux.tar.gz",
+        url: "https://github.com/SabrinaBruni28/JogoCampoMinado-2.0/releases/latest/download/CampoMinado-Linux.tar.gz",
       },
       {
         name: "Download (Windows)",
-        url: "https://github.com/SabrinaBruni28/JogoCampoMinado-2.0/releases/download/v22/CampoMinado-Windows.exe",
+        url: "https://github.com/SabrinaBruni28/JogoCampoMinado-2.0/releases/latest/download/CampoMinado-Windows.exe",
       },
       {
         name: "Download (MacOS)",
-        url: "https://github.com/SabrinaBruni28/JogoCampoMinado-2.0/releases/download/v22/CampoMinado-macOS.tar.gz",
+        url: "https://github.com/SabrinaBruni28/JogoCampoMinado-2.0/releases/latest/download/CampoMinado-macOS.tar.gz",
       },
     ],
     img: "/assets/campominado.png",
   },
   {
-    id: 11,
     name: "Dinos Em Extinção - Jogo de Tabuleiro",
     urls: [
       {
@@ -177,7 +166,6 @@ const projects = [
     img: "/assets/dinos.webp",
   },
   {
-    id: 12,
     name: "Guitarriro 2600 - Jogo de Atari",
     urls: [
       {
@@ -188,7 +176,6 @@ const projects = [
     img: "/assets/guitarriro.webp",
   },
   {
-    id: 13,
     name: "Desafio Digital",
     urls: [
       {
@@ -207,7 +194,6 @@ const projects = [
     img: "/assets/desafiodigital.png",
   },
   {
-    id: 14,
     name: "Jogo da Forca",
     urls: [
       {
@@ -222,7 +208,6 @@ const projects = [
     img: "/assets/forca.png",
   },
   {
-    id: 15,
     name: "Cavaleiro da Floresta",
     urls: [
       {
@@ -235,15 +220,18 @@ const projects = [
       },
       {
         name: "Download (Linux)",
-        url: "https://github.com/SabrinaBruni28/Cavaleiro/releases/download/v3/Cavaleiro-Linux.tar.gz",
+        url: "https://github.com/SabrinaBruni28/Cavaleiro/releases/latest/download/Cavaleiro-Linux.tar.gz",
       },
       {
         name: "Download (Windows)",
-        url: "https://github.com/SabrinaBruni28/Cavaleiro/releases//download/v3/Cavaleiro-Windows.exe",
+        url: "https://github.com/SabrinaBruni28/Cavaleiro/releases/latest/download/Cavaleiro-Windows.exe",
       },
     ],
     img: "/assets/cavaleiro.png",
   },
-];
+].map((project, index) => ({
+  ...project,
+  id: index + 1,
+}));
 
 export default projects;
