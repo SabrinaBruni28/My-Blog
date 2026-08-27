@@ -1,21 +1,25 @@
 import Background from "./components/Background";
-import List from "./components/List";
 import Paragraph from "./components/Paragraph";
-import Title from "./components/Title";
 import Button from "./components/Button";
+import Title from "./components/Title";
 import Projects from "./data/Projects";
+import List from "./components/List";
 import Img from "./components/Img";
 
 function App() {
   return (
     <Background>
-      <div className="space-y-6 p-6 bg-stone-400 rounded-md shadow justify-center">
+      <div className="space-y-2 p-6 bg-stone-500 rounded-md shadow justify-center">
         <Title>Welcome to My Blog</Title>
+
+        {/* Foto */}
         <img
           src={import.meta.env.BASE_URL + "/sabrina.jpg"}
           alt="Sabrina Bruni"
           className="w-45 h-40 rounded-full mx-auto border-4 border-slate-300"
         />
+
+        {/* Contatos */}
         <div className="justify-center p-6 flex gap-4 flex-wrap">
           {/*GitHub*/}
           <Button
@@ -48,11 +52,20 @@ function App() {
             <Img src="https://static.vecteezy.com/system/resources/previews/022/613/021/non_2x/google-mail-gmail-icon-logo-symbol-free-png.png" />
           </Button>
         </div>
-        <Paragraph>
-          My name is Sabrina Bruni. I'm graduated in Computer Science. This is a
-          blog where I share all my projects that I publish somewhere.
-        </Paragraph>
+
+        {/* Apresentação */}
+        <div className="px-15">
+          <Paragraph>
+            Hi! I'm Sabrina Bruni, a Computer Science graduate and developer
+            passionate about technology and creating things. This blog is a
+            place where I bring together my projects, experiments, and ideas,
+            making it easier to explore everything I've built and published
+            across different platforms.
+          </Paragraph>
+        </div>
       </div>
+
+      {/* Sistemas */}
       <div>
         <List list={Projects} />
       </div>

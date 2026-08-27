@@ -37,7 +37,7 @@ function List(props) {
           <li
             key={item.id}
             onClick={() => toggleItem(item.id)}
-            className="relative bg-slate-400 rounded-md hover:bg-slate-500 transition cursor-pointer flex flex-col items-center p-2"
+            className="relative bg-slate-500 rounded-md hover:bg-slate-400 transition cursor-pointer flex flex-col items-center p-2"
           >
             {/* Seta no canto */}
             <span
