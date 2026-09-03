@@ -82,6 +82,16 @@ const projects = [
     img: "/assets/megamania.png",
   },
   {
+    name: "ReciFlores",
+    urls: [
+      {
+        name: "Site",
+        url: "https://gamehub-ufv.itch.io/reciflores",
+      },
+    ],
+    img: "/assets/reciflores.png",
+  },
+  {
     name: "Desafio Digital",
     urls: [
       {
